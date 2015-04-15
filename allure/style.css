@@ -1,0 +1,190 @@
+body {
+	margin: 0px;
+}
+
+#banner {
+	min-height: 100vh;
+	height: 100vh;
+	width: 100%;
+	background: url('banner.jpg') no-repeat center center fixed;
+	background-size: cover;
+}
+
+.logo {
+	padding-top: 40px;
+	padding-left: 40px;
+}
+
+.logo h2{
+	margin-top: -50px;
+	margin-left: 90px;
+}
+
+.hoxton-logo {
+	padding-top: 65vh;
+}
+
+h1, h2, h3{
+	font-family: 'Montserrat';
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 40pt;
+	font-style: italic;
+	line-height: 0.5;
+}
+
+h2 {
+	font-size: 12pt;
+	color: #fff;
+}
+
+h3 {
+	font-size: 18pt;
+	color: #666;
+	text-align: left;
+}
+
+p, a {
+	font-family: 'Montserrat';
+	font-size: 14pt;
+	font-weight: 400;
+	color: #fff;
+	line-height: 2;
+}
+
+.contact-us {
+	margin-top: -31px;
+	padding-right: 40px;
+	float: right;
+}
+
+#our-story {
+	width: 100%;
+	background: url('background.jpg');
+	height: 600px;
+	padding-top: 100px;
+}
+
+.center {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#our-story p {
+	max-width: 640px;
+	padding-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#our-story h2 {
+	color: #999;
+}
+
+#products {
+
+}
+
+#products h2{
+	color: #666;
+	font-size: 14pt;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	border-bottom: 2px solid #cc9966;
+	width: 400px;
+}
+
+.product {
+	padding-top: 100px;
+	display: flex;
+	margin-bottom: 100px;
+	max-width: 960px;
+	width: 960px;
+}
+
+.light img {
+	float: left
+}
+
+.text {
+	max-width: 460px;
+	padding-top: 45px;
+}
+
+.product-img {
+	text-align: left;
+	float: left;
+}
+
+.text p{
+	font-size: 11pt;
+	color: #666;
+	display: inline-block;
+	text-align: left;
+}
+
+.right {
+	padding-left: 100px;
+}
+
+.left {
+	padding-right: 100px;
+}
+
+.available {
+	color: #999;
+}
+
+.available img {
+	margin-right: 10px;
+}
+
+.price {
+	display: flex;
+	text-align: left;
+}
+
+.price p {
+	padding-top: 38px;
+	margin-right: 10px;
+	font-style: italic;i
+}
+
+#footer {
+	background-color: #282727;
+	height: 200px;
+	max-height: 200px;
+	display: block;
+}
+
+#footer table{
+	padding-top: 60px;
+	width: 960px;
+	margin: 0 auto;
+}
+
+td	{
+	width: 320px;
+}
+
+table p, a {
+	color: #d29354;
+	text-transform: uppercase;
+}
+
+table a {
+	text-align: right;
+}
+
+.right-footer {
+	text-align: right;
+}
