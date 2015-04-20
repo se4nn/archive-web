@@ -35,7 +35,9 @@ p {
 
 h1 {
   font-family: 'Open Sans', sans-serif;
-  color: #999;
+  color: #ff6666;
+  font-weight: 700;
+  font-size: 40pt;
 }
 
 h2 {
@@ -43,6 +45,7 @@ h2 {
   color: #999;
   font-size: 20pt;
   line-height: 2;
+  font-weight: 400;
 }
 
 
