@@ -34,6 +34,13 @@ a {
 	text-decoration: none;
 }
 
+h4 {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 50pt;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
 h1 {
 	font-size: 40pt;
 	font-style: italic;
@@ -60,7 +67,7 @@ p, a {
 }
 
 .contact-us {
-	margin-top: -46px;
+	margin-top: -50px;
 	padding-right: 40px;
 	float: right;
 }
@@ -68,8 +75,11 @@ p, a {
 #our-story {
 	width: 100%;
 	background: url('background.jpg');
-	height: 600px;
 	padding-top: 100px;
+}
+
+.our-story {
+	height: 600px;
 }
 
 .center {
@@ -88,6 +98,10 @@ p, a {
 
 #our-story h2 {
 	color: #999;
+}
+
+.customisation {
+	height: 530px;
 }
 
 #products {
@@ -134,14 +148,20 @@ p, a {
 
 .right {
 	padding-left: 100px;
+	text-align: left;
 }
 
 .left {
 	padding-right: 100px;
+	text-align: left;
 }
 
 .available {
 	color: #999;
+}
+
+.white {
+	color: #fff;
 }
 
 .available img {
