@@ -32,14 +32,27 @@ p, a {
 
 .section-1{
 	height: 100vh;
-	width: 100%;
 	display: table;
-	background: url('./assets/clock.png') no-repeat 50% 81% #dc3d3d;
 }
 
 .watch {
 	margin-top: -38px;
 	padding-left: 61px;
+}
+
+video {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ 	background: url('./assets/clock.png') no-repeat 50% 81% #dc3d3d;
+ 	background-size: cover;
+  	transition: 1s opacity;
 }
 
 .text1 {
@@ -114,3 +127,4 @@ p, a {
 	height: 30vh;
 	background: #333;
 }
+
