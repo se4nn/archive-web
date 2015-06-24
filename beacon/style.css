@@ -83,3 +83,34 @@ p, a {
 	display: block;
 	margin-right:auto;
 }
+
+.section-2{
+	height: 100vh;
+	width: 100%;
+	display: table;
+}
+
+.connected {
+	display: table-cell;
+	max-width: 60%;
+	background: #66cc99;
+}
+
+.connected h1 {
+	line-height: 1;
+}
+
+.other {
+	display: table-cell;
+	width: 40%;
+}
+
+.render {
+	height: 70vh;
+	background: url('./assets/render.png') no-repeat 50% 100% #ffcc00;
+}
+
+.sign-up {
+	height: 30vh;
+	background: #333;
+}
