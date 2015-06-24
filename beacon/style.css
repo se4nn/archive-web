@@ -23,6 +23,12 @@ h2 {
 	font-weight: 400;
 }
 
+h3 {
+	font-size: 40px;
+	color: #fff;
+	font-weight: 700;
+}
+
 p, a {
 	font-family: 'Montserrat';
 	font-size: 14pt;
@@ -50,7 +56,7 @@ video {
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
- 	background: url('./assets/clock.png') no-repeat 50% 81% #dc3d3d;
+ 	background: url('./assets/clock.png') no-repeat 50% 81% #cf2b3f;
  	background-size: cover;
   	transition: 1s opacity;
 }
@@ -106,10 +112,14 @@ video {
 .connected {
 	display: table-cell;
 	max-width: 60%;
-	background: #66cc99;
+	background: url('./assets/connected.png') 0% 40% no-repeat #66cc99;
 }
 
-.connected h1 {
+.connected-text {
+	padding: 120px 100px 0px 100px;
+}
+
+.connected-text h1 {
 	line-height: 1;
 }
 
@@ -128,3 +138,6 @@ video {
 	background: #333;
 }
 
+.sign-up-title {
+	padding: 20px 50px 0px 50px;
+}
