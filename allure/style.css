@@ -212,3 +212,24 @@ table a {
 .right-footer {
 	text-align: right;
 }
+
+
+/* Media Query (Mobile) */
+@media only screen 
+  and (max-device-width: 460px) 
+
+#banner {
+	height: 100vh;
+	width: 100%;
+}
+
+
+.hoxton-logo {
+	margin-bottom: 50vh;
+}
+
+.contact-us {
+	visibility: hidden;
+}
+
+}
