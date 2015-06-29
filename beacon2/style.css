@@ -175,7 +175,10 @@ input {
 	.section-1 {
 		background: url('./assets/clock1.png') #fff no-repeat 50% 40%;
 		background-size: 80%;
-		padding-bottom: 10%;
+	}
+
+	.section-1 .text {
+		padding-bottom: 20%;
 	}
 
 	.section-2{
