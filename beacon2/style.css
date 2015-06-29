@@ -169,12 +169,13 @@ input {
 		padding-left: 5%;
 		width: 90%;
 		padding-right: 5%;
-		padding-bottom: 20%;
+		padding-bottom: 10%;
 	}
 
 	.section-1 {
 		background: url('./assets/clock1.png') #fff no-repeat 50% 40%;
 		background-size: 80%;
+		padding-bottom: 10%;
 	}
 
 	.section-2{
@@ -216,7 +217,7 @@ input {
 	}
 
 	.fname {
-		width: 90%;
+		width: 100%;
 		margin-bottom: 10px;
 	}
 
@@ -225,7 +226,7 @@ input {
 	}
 
 	.email {
-		width: 90%;
+		width: 100%;
 	}
 
 
