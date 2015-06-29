@@ -212,11 +212,12 @@ input {
 	.form {
 		padding-left: 5%;
 		width: 90%;
-		padding-bottom: 25vh;
+		padding-bottom: 40vh;
 	}
 
 	.fname {
 		width: 90%;
+		margin-bottom: 10px;
 	}
 
 	.footer {
