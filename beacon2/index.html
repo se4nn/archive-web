@@ -56,11 +56,11 @@
 		</div>
 		</form>
 		</div>
-		<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+		<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 		<script type="text/javascript">
 		   	if (
 
-		   	(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);
+		   		(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);
 
 		   	)
 
@@ -68,15 +68,15 @@
 
 			var theSubmitButton = document.getElementById('mc-embedded-subscribe');
 				theSubmitButton.onclick = function() {
-				    var theFormItself = 
+				    var submit = 
 			        document.getElementById('mc-embedded-subscribe');
-				    theFormItself.style.display = 'none';
-				    var theFormItself = 
+				    submit.style.display = 'none';
+				    var fname = 
 			        document.getElementById('mce-FNAME');
-				    theFormItself.style.display = 'none';
-				    var theFormItself = 
+				   	fname.style.display = 'none';
+				    var email = 
 		            document.getElementById('mce-EMAIL');
-					theFormItself.style.display = 'none';  
+					email.style.display = 'none';  
 			}
 
 		         
