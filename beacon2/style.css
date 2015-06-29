@@ -200,6 +200,11 @@ input {
 		padding-left: 3px;
 	}
 
+	input {
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
 	.button {
 		margin-top: 10px;
 	}
