@@ -1,0 +1,150 @@
+body {
+	margin: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+@-ms-viewport{
+  width: device-width;
+}
+
+h1, h2, h3{
+	font-family: 'Montserrat';
+}
+
+h1 {
+	font-size: 140px;
+	line-height: 0;
+	font-weight: 700;
+	margin-left: -9px;
+}
+
+a {
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 50px;
+	color: #9342ad;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1;
+	margin-top: -25px;
+}
+
+p, a, label, input {
+	font-family: 'Montserrat';
+	font-size: 14pt;
+	font-weight: 400;
+	margin-top: -25px;
+}
+
+.section-1{
+	background: url('./assets/clock1.png') #fff no-repeat 80% 100%;
+	position: relative;
+	height: 100vh;
+	width: 100%;
+}
+
+h3 {
+	border-bottom: #9342ad 5px solid;
+	padding-bottom: 10px;
+}
+
+.purple{
+	color: #9342ad;
+}
+
+.white {
+	color: #fff;
+}
+
+.text {
+	padding-bottom: 75px;
+	position: absolute;
+	padding-left: 10%;
+	bottom: 0;
+	max-width: 710px;
+}
+
+.section-2{
+	background: url('./assets/clock2.png') #9342ad no-repeat 80% 100%;
+	position: relative;
+	display: block;
+	height: 100vh;
+	width: 100%;
+}
+
+.section-3{
+	background: url('./assets/clock1.png') #fff no-repeat 80% 100%;
+	position: relative;
+	height: 100vh;
+	width: 100%;
+}
+
+.section-3 h1 {
+	padding-left: 12px;
+}
+
+.section-4{
+	background: url('./assets/clock3.png') #9342ad no-repeat 80% 100%;
+	position: relative;
+	display: block;
+	height: 100vh;
+	width: 100%;
+}
+
+.section-5{
+	background: #fff;
+	position: relative;
+	height: 100vh;
+	width: 100%;
+}
+
+input {
+	padding: 10px;
+	color: #9342ad;
+	font-weight: 700;
+	background-color: #e9d9ef;
+	border: none;
+	display: inline-block;
+}
+
+.button {
+	background-color: #9342ad;
+	color: #fff;
+	display: inline-block;
+	border: none;
+	width: 150px;
+	text-align: left;
+}
+
+.form {
+	padding-bottom: 40vh;
+	position: absolute;
+	padding-left: 10%;
+	bottom: 0;
+	max-width: 960px;
+	text-transform: uppercase;
+}
+
+.fname {
+	width: 270px;
+	margin-right: 10px;
+}
+
+.email {
+	margin-right: 10px;
+	width: 470px;
+}
+
+.footer {
+	padding-left: 10%;
+	position: absolute;
+	bottom: 0;
+}
