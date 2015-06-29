@@ -7,6 +7,7 @@
 	<title>Get Beacon</title>
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="style.css">
+	<link rel="script" href="./assets/insQ.min.js">
 </head>
 <body>
 
@@ -58,13 +59,8 @@
 		</div>
 		<script type='text/javascript' src='http://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 		<script type="text/javascript">
-		var theSubmitButton = document.getElementById('mc-embedded-subscribe');
-			    theSubmitButton.onclick = function()  {
-	    if (e.target.id == 'mce-success-response')
-		    {
-		       var theSubmitButton = document.getElementById('mc-embedded-subscribe');
-			    theSubmitButton.onclick = function() {
-			        var theFormItself = 
+		insertionQ(‘#mce-success-response’).every(function(e)
+		    {       var theFormItself = 
 			            document.getElementById('mc-embedded-subscribe');
 			        theFormItself.style.display = 'none';
 			        var theFormItself = 
@@ -74,7 +70,6 @@
 			            document.getElementById('mce-EMAIL');
 			        theFormItself.style.display = 'none';
 		    }       
-		}
 		});
 		</script>
 	</div>
