@@ -153,11 +153,15 @@ input {
 	font-family: 'Montserrat';
 	font-size: 14pt;
 	font-weight: 400;
-	margin: 0 0 1em 0;
+	margin: 10px 1px 0px 1px !important;
 	padding: 5px 10px;
-	background-color: red;
+	background-color: red !important;
 	z-index: 1;
 	color: #fff;
+}
+
+.response {
+	
 }
 
 
